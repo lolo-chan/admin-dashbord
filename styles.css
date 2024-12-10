@@ -24,15 +24,36 @@ body {
     font-weight: bold;
 }
 
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    gap: 10px;
+}
+
 .section1, .section2 {
     font-size: 24px;
     display: grid;
     gap: 10px;
+}
 
+.section1 {
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
 }
 
 .section2 {
-    grid-auto-rows: min-content
+    grid-template-columns: 1fr 5fr;
+    grid-auto-rows: min-content;
+    gap: 10px;
+}
+
+.im {
+    filter: invert(100%) sepia(0%) saturate(7428%) hue-rotate(24deg) brightness(119%) contrast(115%);
+}
+
+.icon {
+    text-align: center;
 }
 
 .title {
@@ -138,4 +159,8 @@ body {
     font-weight: bold;
     font-size: 18px;
     grid-column: 4 / 5;
+}
+
+.body {
+    background-color: #e2e8f0;
 }
