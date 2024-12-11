@@ -263,3 +263,20 @@ body {
     font-size: 24px;
     padding-bottom: 20px;
 }
+
+.announcement-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.divider {
+    border: 1px solid gray;
+}
+
+.announcement-heading {
+    font-weight: bold;
+    font-size: 18px;
+}
