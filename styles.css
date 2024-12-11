@@ -191,6 +191,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 30fr;
     grid-template-rows: 2fr 1fr;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .projects { 
@@ -219,6 +220,7 @@ body {
     border-radius: 12px;
     padding-left: 40px;
     padding-right: 40px;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .yellow-line {
@@ -272,6 +274,7 @@ body {
     justify-content: space-evenly;
     padding-left: 40px;
     padding-right: 40px;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .divider {
