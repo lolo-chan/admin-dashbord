@@ -43,8 +43,14 @@ body {
 }
 
 .section2 {
-    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 2fr;
     grid-auto-rows: min-content;
+    gap: 10px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
     gap: 10px;
 }
 
